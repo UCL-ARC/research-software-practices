@@ -39,6 +39,38 @@ there is not, ask yourself whether you really need to do that thing.
 And of course, both these packages play nicely together with RStudio, with several built-in features and shortcuts (see
 the _R Packages_ book for tips and tricks).
 
+### Releasing
+
+For more general information on releasing, see the [release management guide](../../project_organisation/release).
+
+General R packages can be submitted to [CRAN](https://cran.r-project.org/). For bioinformatics/life science related
+packages, consider submitting to [Bioconductor](https://bioconductor.org/) (see below).
+
+To release a package, follow these steps:
+
+```r
+# Check package meets CRAN standards
+devtools::check()
+
+# Build and submit to CRAN
+devtools::release()
+```
+
+**Best practices:**
+
+- Ensure your package passes `R CMD check` with no errors, warnings, or notes
+- Follow [CRAN policies](https://cran.r-project.org/web/packages/policies.html)
+- Respond promptly to CRAN maintainer feedback
+- Consider submitting to [r-universe](https://r-universe.dev/) for faster distribution between CRAN releases
+- For Bioconductor packages, follow the [Bioconductor submission process](https://contributions.bioconductor.org/)
+
+The `usethis` package has a convenient function that will create a GitHub issue for you with a checklist of best
+practices to follow when releasing your package:
+
+```r
+usethis::use_release_issue()
+```
+
 ## CI with GitHub Actions
 
 The [r-lib/actions](https://github.com/r-lib/actions) repository contains several reusable _GitHub Actions_ (GHA)
@@ -71,3 +103,5 @@ The _biocthis_ package provides
 package with the _Bioconductor_-specific rules. You can set
 `options(styler.addins_style_transformer = "biocthis::bioc_style()")` in your `~/.Rprofile` to configure these rules
 globally, or in a project-specific `.Rprofile`.
+
+### Releasing

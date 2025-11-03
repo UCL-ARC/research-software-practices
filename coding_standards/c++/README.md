@@ -30,6 +30,18 @@ general.
 
 Our preferred build system for C++ code projects is [CMake](https://cmake.org/).
 
+## Releasing
+
+For more general information on releasing, see the [release management guide](../../project_organisation/release).
+
+For C++ libraries, distribution depends on your target audience:
+
+- **Source distribution**: Tag releases on GitHub, users build from source
+- **Package managers**: Submit to [vcpkg](https://vcpkg.io/), [Conan](https://conan.io/), or
+  [conda-forge](https://conda-forge.org/)
+- **System packages**: Create `.deb`, `.rpm`, or other system-specific packages
+- **Header-only libraries**: Can be distributed as simple Git repositories
+
 ## Further reading
 
 - More pedagogical guidance can be found in the C++ course,
