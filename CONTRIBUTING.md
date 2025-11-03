@@ -29,7 +29,7 @@ To contribute a change, please:
 
 [GitHub flavoured markdown]:
   https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-[webpage]: http://github-pages.arc.ucl.ac.uk/coding-standards/
+[webpage]: https://github-pages.arc.ucl.ac.uk/research-software-practices/
 [UCL ARC]: https://ucl.ac.uk/arc
 [open an issue]: https://github.com/UCL-ARC/coding-standards/issues/new/choose
 [Research software engineers]: https://society-rse.org/about/history
