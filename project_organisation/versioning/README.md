@@ -152,17 +152,12 @@ Keep in mind that changelogs are written for _humans_, not machines, so they sho
 When removing features, provide deprecation warnings for at least one minor version before removal:
 
 ```python
-import warnings
+from deprecated import deprecated
 
+@deprecated(version='2.0.0', reason="You should use new_function() instead.")
 def old_function():
-    warnings.warn(
-        "old_function() is deprecated and will be removed in version 2.0.0. "
-        "Use new_function() instead.",
-        DeprecationWarning,
-        stacklevel=2
-    )
     # ... existing implementation
-````
+```
 
 ### Dependency version constraints
 
