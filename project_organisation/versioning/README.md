@@ -163,7 +163,7 @@ def old_function():
 
 Specify version constraints for your dependencies to ensure compatibility:
 
-- **Python** (`requirements.txt` or `pyproject.toml`):
+- **Python** (e.g. at least a `pyproject.toml` with dependencies and a `pylock.toml` or `uv.lock` lockfile):
 
   ```
   numpy>=1.20,<2.0
