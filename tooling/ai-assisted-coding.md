@@ -1,11 +1,11 @@
 # Guide To AI-Assisted Coding
 
-**AI:** Artificial Intelligence
-**LLM:** Large-Language Model
-**CLI:** Command Line Interface
-**PR: **Pull Request
-**IDE: **Integrated Development Environment
-**ARC:** Advanced Research Computing
+**AI**: Artificial Intelligence
+**LLM**: Large-Language Model
+**CL**: Command Line Interface
+**PR**: Pull Request
+**IDE**: Integrated Development Environment
+**ARC**: Advanced Research Computing
 
 This guide is a collection of advice and tips based on the experience of ARC staff.
 ARC's position is that we encourage curiosity, exploration and experimentation, including with AI-assisted coding tools.
