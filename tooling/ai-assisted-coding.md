@@ -43,7 +43,7 @@ The [RSE AI position statement](https://github.com/Academic-Data-Science-Allianc
 
 ## Tools
 
-There are a lot of tools out there. At the time of writing (December 2025), AI agents are all the rage and this is what most of the tools listed below rely on. AI agents go beyond the simple chatbot interfaces such as ChatGPT, and provide more automation by integrating with your other tools, like your IDE, to carry out tasks for you (like editing code). You prompt them in a way similar to chatbots, but you can also provide them with more specific guidelines for your particular project (sort of like a contributing guide, but for agents instead of humans). [Agents.md](https://agents.md/) is an attempt at standardising this across agent providers, though not every provider supports it yet ([Claude is a notable example](https://github.com/anthropics/claude-code/issues/6235)).
+There are a lot of tools out there. At the time of writing (December 2025), AI agents are all the rage and this is what most of the tools listed below rely on. AI agents go beyond the simple chatbot interfaces such as ChatGPT, and provide more automation by integrating with your other tools, like your IDE, to carry out tasks for you (like editing code). You prompt them in a way similar to chatbots, but you can also provide them with more specific guidelines for your particular project (sort of like a contributing guide, but for agents instead of humans). [Agents.md](https://agents.md/) is an attempt at standardising this across agent providers, though not every provider supports it yet (Claude is a notable example, though [they provide a workaround](https://code.claude.com/docs/en/claude-code-on-the-web#best-practices)).
 
 ### Model providers and platforms
 
