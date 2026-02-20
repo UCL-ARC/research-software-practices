@@ -27,7 +27,9 @@ ARC staff should use the [#community-ai-assisted-coding](https://ucl-arc.slack.c
 
 ## Getting started
 
-Read the [ISD AI Practices in Software Development](https://liveuclac.sharepoint.com/:u:/r/sites/TL/SitePages/ISD-AI-Practices-in-Software-Development.aspx?csf=1&web=1&e=AGwGcZ) for a comprehensive overview of AI/LLMs and how to use them responsibly. The European Commission’s [Living guidelines on the responsible use of generative AI in research](https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en) is also worth a read.
+Read the [ISD AI Practices in Software Development](https://liveuclac.sharepoint.com/:u:/r/sites/TL/SitePages/ISD-AI-Practices-in-Software-Development.aspx?csf=1&web=1&e=AGwGcZ) (only available to UCL staff) for a comprehensive overview of AI/LLMs and how to use them responsibly. The European Commission’s [Living guidelines on the responsible use of generative AI in research](https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en) is also worth a read.
+
+The [RSE AI position statement](https://github.com/Academic-Data-Science-Alliance/rse-ai-position-statement) discusses the role of AI for RSE work specifically (our director is a signatory).
 
 ## Some general do’s and don’ts
 
