@@ -1,4 +1,4 @@
-# ARC’s Rough Guide To AI-Assisted Coding
+# Guide To AI-Assisted Coding
 
 **AI:** Artificial Intelligence
 **LLM:** Large-Language Model
@@ -7,9 +7,19 @@
 **IDE: **Integrated Development Environment
 **ARC:** Advanced Research Computing
 
-***Disclaimer**: this “guide” is really just an opinionated collection of advice and tips based on ARC staff’s experience. It does not try to answer the question“should we use AI?”, but merely acts as a gateway for anyone interested in this area. With the fast-moving world that we live in, it is also likely this guide will become outdated very quickly. We are not responsible for any mishaps or destructive actions caused by the tools discussed in this guide. Always remember: “Artificial Intelligence is no excuse for Human Stupidity”*
+This guide is a collection of advice and tips based on the experience of ARC staff.
+ARC's position is that we encourage curiosity, exploration and experimentation, including with AI-assisted coding tools.
+We hope this guide can act as a gateway for anyone interested in this area.
 
-These are some general guidelines and pointers around AI-assisted coding tools, based on the individual experiences of ARC staff. It is intended to be a live collaborative document and we invite everyone interested in this topic to contribute. Feel free to adapt and edit the contents in this Canvas. If you’re not sure about something, use the [#community-ai-assisted-coding](https://ucl-arc.slack.com/archives/C090RT38Q83) channel to discuss.
+***Disclaimer***:
+* With the fast-moving world that we live in, it is also likely this guide will become outdated very quickly.
+   Take note of the last modified timestamp.
+* We are not responsible for any mishaps or destructive actions caused by the tools discussed in this guide.
+  Always remember: “Artificial Intelligence is no excuse for Human Stupidity”*
+
+These are some general guidelines and pointers around AI-assisted coding tools, based on the individual experiences of ARC staff.
+It is intended to be a collaborative document and we invite any ARC staff interested in this topic to contribute. Feel free to open a pull request to improve the content.
+ARC staff should use the [#community-ai-assisted-coding](https://ucl-arc.slack.com/archives/C090RT38Q83) channel to discuss anything they are unsure about.
 
 ## Getting started
 
@@ -19,9 +29,10 @@ Read the [ISD AI Practices in Software Development](https://liveuclac.sharepoint
 
 - Use AI tools to *support* your coding, not as a replacement. Assume that anything it writes is wrong, and critically review it with this mindset
 - Use AI for repetitive, low-stakes tasks, or to generate some boilerplate so you don’t have to start from a blank screen - treat it as a glorified autocomplete
-- Use AI for PR reviews, e.g. [GitHub’s copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review) - useful for catching typos and inconsistencies that are easier to miss by the human eye. But DON’T rely on AI review only to approve PRs, always have a human reviewer as well
+- Use AI for pull-request reviews, e.g. [GitHub’s copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review) - useful for catching typos and inconsistencies that are easier to miss by the human eye. But DON’T rely on AI review only to approve pull requests, always have a human reviewer as well
 - DON’T commit any AI-generated code that you don’t understand or couldn’t have written yourself
-- DON’T [use AI agents to produce 22k lines Pull Requests and dump them on unsuspecting open-source maintainers](https://ucl-arc.slack.com/archives/C090RT38Q83/p1764096942884989)
+- DON’T [use AI agents to produce 22k-line pull requests and dump them on unsuspecting open-source maintainers](https://github.com/tshort/StaticCompiler.jl/pull/180)
+- DON'T use AI agents to produce large pull requests and dump them on your collaborators either
 - [DON’T feel like you *need* to use AI](https://colton.dev/blog/curing-your-ai-10x-engineer-imposter-syndrome/)
 
 ## Tools
