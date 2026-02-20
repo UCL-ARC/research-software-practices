@@ -1,10 +1,13 @@
 # Guide To AI-Assisted Coding
 
 **AI**: Artificial Intelligence
+
 **LLM**: Large-Language Model
-**CL**: Command Line Interface
-**PR**: Pull Request
+
+**CLI**: Command Line Interface
+
 **IDE**: Integrated Development Environment
+
 **ARC**: Advanced Research Computing
 
 This guide is a collection of advice and tips based on the experience of ARC staff.
@@ -12,6 +15,7 @@ ARC's position is that we encourage curiosity, exploration and experimentation, 
 We hope this guide can act as a gateway for anyone interested in this area.
 
 ***Disclaimer***:
+
 * With the fast-moving world that we live in, it is also likely this guide will become outdated very quickly.
    Take note of the last modified timestamp.
 * We are not responsible for any mishaps or destructive actions caused by the tools discussed in this guide.
@@ -37,7 +41,7 @@ Read the [ISD AI Practices in Software Development](https://liveuclac.sharepoint
 
 ## Tools
 
-There’s a lot of tools out there. At the time of writing (December 2025), AI agents are all the rage and this is what most of the tools listed below rely on. AI agents go beyond the simple chatbot interfaces such as ChatGPT, and provide more automation by integrating with your other tools, like your IDE, to carry out tasks for you (like editing code). You prompt them in a way similar to chatbots, but you can also provide them with more specific guidelines for your particular project (sort of like a contributing guide, but for agents instead of humans). [Agents.md](https://agents.md/) is an attempt at standardising this across agent providers, though not every provider supports it yet ([Claude is a notable example](https://github.com/anthropics/claude-code/issues/6235)).
+There are a lot of tools out there. At the time of writing (December 2025), AI agents are all the rage and this is what most of the tools listed below rely on. AI agents go beyond the simple chatbot interfaces such as ChatGPT, and provide more automation by integrating with your other tools, like your IDE, to carry out tasks for you (like editing code). You prompt them in a way similar to chatbots, but you can also provide them with more specific guidelines for your particular project (sort of like a contributing guide, but for agents instead of humans). [Agents.md](https://agents.md/) is an attempt at standardising this across agent providers, though not every provider supports it yet ([Claude is a notable example](https://github.com/anthropics/claude-code/issues/6235)).
 
 ### Model providers and platforms
 
@@ -57,7 +61,7 @@ Choosing a model for your task often comes down to personal preference and exper
 
 - [Cursor](https://cursor.com/): “The best way to code with AI” (according to their website)
 - [Windsurf](https://windsurf.com/): “The best AI for coding” (also, according to their website)
-- [Zed](https://zed.dev/): “Love your editor again” (not as AI-centric as the two above, but with excellent support
+- [Zed](https://zed.dev/): “Love your editor again” (not as AI-centric as the two above, but with excellent support)
 - [Antigravity](https://antigravityai.org/): Google's VScode based agentic IDE
 
 ### CLIs
