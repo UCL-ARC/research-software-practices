@@ -1,0 +1,6 @@
+accept = [200, 403, 429]
+verbose = "info"
+no_progress = true
+exclude = [
+    '(?x).*liveuclac.sharepoint.com/sites/*', # SharePoint pages will need UCL credentials.
+]
