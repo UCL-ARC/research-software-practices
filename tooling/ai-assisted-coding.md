@@ -64,7 +64,7 @@ Choosing a model for your task often comes down to personal preference and exper
 - [Cursor](https://cursor.com/): “The best way to code with AI” (according to their website)
 - [Windsurf](https://windsurf.com/): “The best AI for coding” (also, according to their website)
 - [Zed](https://zed.dev/): “Love your editor again” (not as AI-centric as the two above, but with excellent support)
-- [Antigravity](https://antigravityai.org/): Google's VScode based agentic IDE
+- [Antigravity](https://antigravity.google/): Google's VScode based agentic IDE
 
 ### CLIs
 
