@@ -39,6 +39,17 @@ there is not, ask yourself whether you really need to do that thing.
 And of course, both these packages play nicely together with RStudio, with several built-in features and shortcuts (see
 the _R Packages_ book for tips and tricks).
 
+## Versioning
+
+Specify the version in the `DESCRIPTION` file:
+
+```
+Package: mypackage
+Version: 1.2.0
+```
+
+Use [`usethis::use_version()`](https://usethis.r-lib.org/reference/use_version.html) to facilitate version bumping.
+
 ### Releasing
 
 For more general information on releasing, see the [release management guide](../../project_organisation/release).
@@ -103,5 +114,3 @@ The _biocthis_ package provides
 package with the _Bioconductor_-specific rules. You can set
 `options(styler.addins_style_transformer = "biocthis::bioc_style()")` in your `~/.Rprofile` to configure these rules
 globally, or in a project-specific `.Rprofile`.
-
-### Releasing

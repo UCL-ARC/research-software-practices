@@ -66,44 +66,6 @@ git tag -l
 
 Keep your version number in a single, authoritative location to avoid inconsistencies:
 
-### Python
-
-Use a `__version__` attribute in your package's `__init__.py`:
-
-```python
-__version__ = "1.2.0"
-```
-
-For modern Python packages, specify the version in `pyproject.toml`:
-
-```toml
-[project]
-name = "my-package"
-version = "1.2.0"
-```
-
-Or use dynamic versioning with tools like [`setuptools-scm`](https://github.com/pypa/setuptools_scm), which
-automatically determines the version from Git tags.
-
-### R
-
-Specify the version in the `DESCRIPTION` file:
-
-```
-Package: mypackage
-Version: 1.2.0
-```
-
-Use [`usethis::use_version()`](https://usethis.r-lib.org/reference/use_version.html) to facilitate version bumping.
-
-### C++
-
-Define the version in CMake:
-
-```cmake
-project(MyProject VERSION 1.2.0)
-```
-
 ## Changelog management
 
 Maintain a `CHANGELOG.md` file to document changes between versions. Follow the
@@ -182,3 +144,4 @@ Specify version constraints for your dependencies to ensure compatibility:
 - [Semantic Versioning specification](https://semver.org/)
 - [Keep a Changelog](https://keepachangelog.com/)
 - [Git tagging documentation](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+````

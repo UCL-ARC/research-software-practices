@@ -30,6 +30,14 @@ general.
 
 Our preferred build system for C++ code projects is [CMake](https://cmake.org/).
 
+## Versioning
+
+Define the version in CMake:
+
+```cmake
+project(MyProject VERSION 1.2.0)
+```
+
 ## Releasing
 
 For more general information on releasing, see the [release management guide](../../project_organisation/release).
