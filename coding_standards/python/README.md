@@ -12,19 +12,10 @@ standard. We also encourage compliance with modern style recommendations, such a
   maintain an [ARC-recommended `cookiecutter` template](https://github.com/UCL-ARC/python-tooling), which might be a
   helpful starting point.
 
-### Releasing
+### Packaging and Releasing
 
 For more general information on releasing, see the [release management guide](../../project_organisation/release).
 
-Distribute Python packages via [PyPI](https://pypi.org/) (Python Package Index):
-
-```sh
-# Install build tools
-pip install build twine
-
-# Build distribution packages
-python -m build
-
-# Upload to PyPI (requires account and API token)
-python -m twine upload dist/*
-```
+See
+[UCL ARC's Python tooling website](https://github-pages.arc.ucl.ac.uk/python-tooling/pages/packaging.html#general-packaging)
+for recommended tools.
