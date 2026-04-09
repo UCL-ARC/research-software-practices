@@ -16,6 +16,7 @@ standard. We also encourage compliance with modern style recommendations, such a
 
 For more general information on releasing, see the [release management guide](../../project_organisation/release).
 
-See
-[UCL ARC's Python tooling website](https://github-pages.arc.ucl.ac.uk/python-tooling/pages/packaging.html#general-packaging)
-for recommended tools.
+Python code should be released as ["wheels"](https://packaging.python.org/en/latest/discussions/wheel-vs-egg/) using
+[`build`](https://pypa-build.readthedocs.io/en/stable/index.html), and, ideally, be published through the
+[Python Package Index](https://pypi.python.org/pypi) or [conda-forge](https://conda-forge.org/). We maintain a
+[list of recommended packaging tools](http://github-pages.arc.ucl.ac.uk/python-tooling/pages/packaging.html).
