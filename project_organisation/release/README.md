@@ -93,7 +93,7 @@ See the [coding standards](../../coding_standards) for more language-specific in
 
 - [Python](../../coding_standards/python)
 - [R (CRAN or Bioconductor)](../../coding_standards/r)
-- [C++](/coding_standards/c++)
+- [C++](../../coding_standards/c++)
 
 ## Automated releases on tag push with GitHub Actions
 
@@ -202,8 +202,8 @@ When removing features or dropping support for versions:
 
 ## Citation
 
-An appropriate [CITATION.cff](https://www.software.ac.uk/blog/encouraging-citation-software-introducing-citation-files) file
-should be included in repositories, so that users know how to cite the software.
+An appropriate [CITATION.cff](https://www.software.ac.uk/blog/encouraging-citation-software-introducing-citation-files)
+file should be included in repositories, so that users know how to cite the software.
 
 Also consider publishing the software in an appropriate software meta-journal, such as
 [JORS](http://openresearchsoftware.metajnl.com/) or [JOSS](https://joss.theoj.org/), in addition to research

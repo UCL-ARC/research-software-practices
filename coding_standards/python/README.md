@@ -18,6 +18,7 @@ We maintain a [list of recommended Python tools](http://github-pages.arc.ucl.ac.
 
 For more general information on releasing, see the [release management guide](../../project_organisation/release).
 
-Python code should be released as ["wheels"](https://packaging.python.org/en/latest/discussions/wheel-vs-egg/) using
+Python code should be released as
+["wheels"](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#wheels) using
 [`build`](https://pypa-build.readthedocs.io/en/stable/index.html), and, ideally, be published through the
 [Python Package Index](https://pypi.python.org/pypi) or [conda-forge](https://conda-forge.org/).
