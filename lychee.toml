@@ -1,4 +1,4 @@
-accept = [200, 403, 429]
+accept = [200, 202, 403, 429]
 verbose = "info"
 no_progress = true
 exclude = [

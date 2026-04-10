@@ -11,3 +11,14 @@ standard. We also encourage compliance with modern style recommendations, such a
 - We have [separate web pages to document our Python recommendations](https://ucl-arc.github.io/python-tooling/) and we
   maintain an [ARC-recommended `cookiecutter` template](https://github.com/UCL-ARC/python-tooling), which might be a
   helpful starting point.
+
+We maintain a [list of recommended Python tools](http://github-pages.arc.ucl.ac.uk/python-tooling/pages/packaging.html).
+
+## Packaging and Releasing
+
+For more general information on releasing, see the [release management guide](../../project_organisation/release).
+
+Python code should be released as
+["wheels"](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#wheels) using
+[`build`](https://pypa-build.readthedocs.io/en/stable/index.html), and, ideally, be published through the
+[Python Package Index](https://pypi.python.org/pypi) or [conda-forge](https://conda-forge.org/).
