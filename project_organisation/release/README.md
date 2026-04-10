@@ -205,9 +205,8 @@ When removing features or dropping support for versions:
 An appropriate [CITATION.cff](https://www.software.ac.uk/blog/encouraging-citation-software-introducing-citation-files)
 file should be included in repositories, so that users know how to cite the software.
 
-Also consider publishing the software in an appropriate software meta-journal, such as
-[JORS](http://openresearchsoftware.metajnl.com/) or [JOSS](https://joss.theoj.org/), in addition to research
-publications arising from the project.
+Also consider publishing the software in an appropriate software meta-journal, such as [JOSS](https://joss.theoj.org/),
+in addition to research publications arising from the project.
 
 ## Rollback plan
 
